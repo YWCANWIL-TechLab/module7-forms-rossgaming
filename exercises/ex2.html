@@ -84,7 +84,76 @@
             </p>
         </section>
         <section id="answers" class="container">
-
+            <form>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="form1" name="fname" value="John"><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="form1" name="lname" value="Doe">
+            </form>
+           <hr>
+            <form>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="form2" name="fname" value="John"><br>
+                <label for="mname">Middle Name</label><br>
+                <input type="text" id="form2" name="mname" disabled><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="form2" name="lname" value="Doe">
+            </form>
+            <hr>
+            <form>
+                <label for="form3">Username</label>
+                <input type="text" id="form3" name="username"><br>
+                <label for="form3">Password</label>
+                <input type="password" id="form3" name="password" readonly>
+            </form>
+            <form>
+                <label for="form4">Review</label>
+                <input type="reset" id="form4" name="messege"><br>
+                <textarea name="messege" rows="30" cols="50">Punch in the face athon</textarea>
+            </form>
+            <form>
+                <label for="form5">Review</label>
+                <input type="reset" id="form5" name="messege" maxlength="100"><br>
+                <textarea name="messege" rows="30" cols="50">Punch in the face athon</textarea>
+            </form>
+            <form>
+                <label for="form6">Date</label>
+                <input type="date" id="form6" name="Date" min="2020-01-31" max="2023-05-11">
+            </form>
+            <form>
+                <label for="form7">Select files:</label>
+                <input type="file" id="form7" name="File"multiple>
+            </form>
+            <form>
+                <label for="form8">Google Search</label>
+                <input type="search" id="form8" name="google" placeholder="search">
+            </form>
+            <form>
+                <label for="form9">Number</label>
+                <input type="number" id="form9" name="Mason" autofocused>
+            </form>
+            <form>
+                <label for="form10">Ranger</label>
+                <input type="range" id="form10" name="slide" min="0" max="100">
+            </form>
+            <form>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="form11" name="fname"><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="form11" name="lname">
+                <input type="image" src="../images/logo_ywca_32by32.png" alt="submit" width="32" height="32">
+            </form>
+            <br>
+            <form>
+                <input list="yaa">
+                <datalist id="yaa">
+                    <li>
+                        <option value="Oranges">
+                        <option value="Stawberry">
+                        <option value="Banana">
+                    </li>    
+                </datalist>
+            </form>
         </section>
         <script src="" async defer></script>
     </body>
